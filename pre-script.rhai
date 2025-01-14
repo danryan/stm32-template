@@ -253,7 +253,7 @@ switch chipfamily {
         hal = "stm32h7xx-hal";
         hal_version = "0.15.1";
         switch chipserie {
-            "stm32h723" | "stm32h725" | "stm32h730" | "stm32h733" | "stm32h735" | "stm32750" => {
+            "stm32h723" | "stm32h725" | "stm32h730" | "stm32h733" | "stm32h735" | "stm32h750" => {
                 axi = 128;
                 itcm_axi = 196;
                 ram = 16+16;
